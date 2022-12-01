@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import {FormattedMessage} from 'react-intl';
 
 const Footer = () => {
     return (
@@ -11,13 +12,13 @@ const Footer = () => {
                                 <span className="footer-title">LOGO</span>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/">A propos</Link>
+                                <Link className="nav-link" to="/about"><FormattedMessage id="header.a_propos"/></Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/">Contactez- nous</Link>
+                                <Link className="nav-link" to="/"><FormattedMessage id="footer.contactez_nous"/></Link>
                             </li>
                             <li className="nav-item">
-                                <span className="footer-title">Nous suivre :</span>
+                                <span className="footer-title"><FormattedMessage id="footer.nous_suivre"/> :</span>
                                 <div className="col-md-4 box">
                                     <ul className="list-inline social-buttons d-flex">
                                         <li className="list-inline-item">
@@ -37,19 +38,19 @@ const Footer = () => {
                     <div className="col-md-4 footer-column">
                         <ul className="nav flex-column">
                             <li className="nav-item">
-                                <Link className="nav-link" to="/">Politiques de ventes</Link>
+                                <Link className="nav-link" to="/"><FormattedMessage id="footer.politiques_de_ventes"/></Link>
                             </li>
                             <li className="nav-item">
-                                <span className="footer-title">S'inscrire à l'infolettre :</span>
+                                <span className="footer-title"><FormattedMessage id="footer.s_inscrire_infolettre"/> :</span>
                             </li>
                             <form className="col-md-8">
-                                <input type="email" className="form-control my-3" placeholder="Votre courriel" id="email"/>
-                                <button type="submit" className="btn btn-outline-light btn-block">Envoyer</button>
+                                <input type="email" className="form-control my-3" placeholder="Email" id="email"/>
+                                <button type="submit" className="btn btn-outline-light btn-block"><FormattedMessage id="footer.envoyer"/></button>
                             </form>
                         </ul>
                     </div>
                     <div className="col-md-4 footer-column">
-                        <span className="footer-title">Partenaires</span>
+                        <span className="footer-title"><FormattedMessage id="footer.partenaires"/></span>
                         <div class="container text-center">
                             <div class="row row-cols-2">
                                 <div class="col">Ford</div>
@@ -63,7 +64,7 @@ const Footer = () => {
                 
                 <div className="row text-center mt-5">
                     <div className="col-md-12 box">
-                        <span className="copyright quick-links">Copyright &copy; Our Website auto 2022</span>
+                        <span className="copyright quick-links">Copyright &copy; Auto app 2022</span>
                     </div>
                 </div>
             </div>

@@ -42,6 +42,10 @@ span.nav-link,
   width: fit-content;
 }
 
+.btn-lang {
+  text-transform: uppercase;
+}
+
 .nav-link:hover {
   color: black;
 }

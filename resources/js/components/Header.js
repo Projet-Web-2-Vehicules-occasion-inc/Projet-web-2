@@ -19,6 +19,9 @@ const Header = () => {
                     <div>
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
+                                <Link className="nav-link active" to="/home"><FormattedMessage id="header.accueil"/></Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link className="nav-link active" aria-current="page" to="/products"><FormattedMessage id="header.voitures"/></Link>
                             </li>
                             <li className="nav-item">
@@ -32,7 +35,7 @@ const Header = () => {
                             </li>
                             <li className="nav-item">
                                 {/* bouton du changement de langue */}
-                                <button type="button" className="btn btn-primary" onClick={context.selectLanguage}>{context.locale}</button>                        
+                                <button type="button" className="btn btn-primary btn-lang" onClick={context.selectLanguage}>{context.locale}</button>                        
                             </li>
                         </ul>
                     </div>

@@ -1,4 +1,14 @@
 {
   "header.accueil" : "Home" ,
-  "header.voitures" : "Cars" 
- }
+  "header.voitures" : "Cars",
+  "header.s_inscrire" : "Sign up",
+  "header.a_propos" : "About us",
+  "header.connexion" : "Login",
+  "footer.contactez_nous" : "Contact us",
+  "footer.nous_suivre" : "Follow us",
+  "footer.politiques_de_ventes" : "Sales policy",
+  "footer.s_inscrire_infolettre" : "Subscribe to our newsletter",
+  "footer.votre_courriel" : "Your email",
+  "footer.envoyer" : "Send",
+  "footer.partenaires" : "Partners"
+}
