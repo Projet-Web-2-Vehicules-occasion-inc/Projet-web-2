@@ -13,11 +13,13 @@
 
 nav {
   background-color: #F5F5F5;
+  z-index: 3;
 }
 
 a.nav-link.active:hover {
   color: #0D6EFD;
 }
+
 
 footer {
   color: white;

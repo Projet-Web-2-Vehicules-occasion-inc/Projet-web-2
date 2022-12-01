@@ -3,7 +3,7 @@ import {FormattedMessage} from 'react-intl';
 
 const Footer = () => {
     return (
-        <footer className="position-absolute bottom-0 container-fluid bg-primary pt-5 pb-3">
+        <footer className="container-fluid bg-primary pt-5 pb-3">
             <div className=" container-sm">
                 <div className="row">
                     <div className="col-md-4 footer-column text-start">

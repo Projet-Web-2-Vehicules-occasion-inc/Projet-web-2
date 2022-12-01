@@ -10,7 +10,7 @@ const Header = () => {
     
     return (
         <header>
-            <nav className="navbar navbar-expand-lg container-fluid py-3">
+            <nav className="position-fixed top-0 navbar navbar-expand-lg container-fluid py-3">
                 <div className="container-sm">
                     <Link className="navbar-brand" to="/home">LOGO</Link>
                     <button className="navbar-toggler">

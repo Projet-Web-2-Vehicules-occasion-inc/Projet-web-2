@@ -10,5 +10,11 @@
   "footer.s_inscrire_infolettre" : "Subscribe to our newsletter",
   "footer.votre_courriel" : "Your email",
   "footer.envoyer" : "Send",
-  "footer.partenaires" : "Partners"
+  "footer.partenaires" : "Partners",
+  "home.titre_filtre" : "Find your next pre-owned vehicle",
+  "home.form_marque" : "Choose a brand",
+  "home.form_modele" : "Choose a model",
+  "home.form_annee" : "Choose a year",
+  "home.form_rechercher" : "Search",
+  "home.voiture_recent" : "Latest car"
 }
