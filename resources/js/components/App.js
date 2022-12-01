@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route,BrowserRouter } from 'react-router-dom'
 import Inscription from '../pages/register/Inscription'
 import Header from './Header';
+import Home from './Home';
 import Footer from './Footer';
 /* pour changement de langue */
 import LangueWrapper from './LangueWrapper';
@@ -14,6 +15,7 @@ function App() {
       <LangueWrapper>
         <div className="box-app container-fluid p-0 position-relative">
           <Header/>
+          <Home />
           <Footer />
           <Routes>
             {/* <Route path="/" element={<UsersListe users = {users} />} /> */}
