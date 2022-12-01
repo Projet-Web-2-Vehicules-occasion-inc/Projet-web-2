@@ -1,8 +1,72 @@
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <footer className="d-flex justify-content-center">
-            <p className="h6 fw-4">Copyright @ 2022 - Ecom App </p>
+        <footer className="position-absolute bottom-0 container-fluid bg-primary pt-5 pb-3">
+            <div className=" container-sm">
+                <div className="row">
+                    <div className="col-md-4 footer-column text-start">
+                        <ul className="nav flex-column">
+                            <li className="nav-item">
+                                <span className="footer-title">LOGO</span>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/">A propos</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/">Contactez- nous</Link>
+                            </li>
+                            <li className="nav-item">
+                                <span className="footer-title">Nous suivre :</span>
+                                <div className="col-md-4 box">
+                                    <ul className="list-inline social-buttons d-flex">
+                                        <li className="list-inline-item">
+                                            <Link to="/">Twitter</Link>
+                                        </li>
+                                        <li className="list-inline-item">
+                                            <Link to="#">Facebook</Link>
+                                        </li>
+                                        <li className="list-inline-item">
+                                            <Link to="#">LinkedIn</Link>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="col-md-4 footer-column">
+                        <ul className="nav flex-column">
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/">Politiques de ventes</Link>
+                            </li>
+                            <li className="nav-item">
+                                <span className="footer-title">S'inscrire à l'infolettre :</span>
+                            </li>
+                            <form className="col-md-8">
+                                <input type="email" className="form-control my-3" placeholder="Votre courriel" id="email"/>
+                                <button type="submit" className="btn btn-outline-light btn-block">Envoyer</button>
+                            </form>
+                        </ul>
+                    </div>
+                    <div className="col-md-4 footer-column">
+                        <span className="footer-title">Partenaires</span>
+                        <div class="container text-center">
+                            <div class="row row-cols-2">
+                                <div class="col">Ford</div>
+                                <div class="col">Hyundai</div>
+                                <div class="col">Citroen</div>
+                                <div class="col">Honda</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div className="row text-center mt-5">
+                    <div className="col-md-12 box">
+                        <span className="copyright quick-links">Copyright &copy; Our Website auto 2022</span>
+                    </div>
+                </div>
+            </div>
         </footer>
     )
 }

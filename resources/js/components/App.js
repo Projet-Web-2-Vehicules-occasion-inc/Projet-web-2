@@ -12,9 +12,9 @@ import inscriptionClient from '../pages/register/inscriptionClient'
 function App() {
     return (
       <LangueWrapper>
-        <div className='container'>
+        <div className="box-app container-fluid p-0 position-relative">
           <Header/>
-          <Footer/>
+          <Footer />
           <Routes>
             {/* <Route path="/" element={<UsersListe users = {users} />} /> */}
             <Route path="/register" element={<Inscription  />} />
